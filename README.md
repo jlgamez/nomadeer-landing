@@ -30,6 +30,7 @@ A modern template for building high-quality, performant landing pages using [Rad
 ## Getting Started
 
 1. **Install dependencies:**
+
    ```bash
    npm install
    # or
@@ -41,6 +42,7 @@ A modern template for building high-quality, performant landing pages using [Rad
    ```
 
 2. **Run the development server:**
+
    ```bash
    npm run dev
    # or
