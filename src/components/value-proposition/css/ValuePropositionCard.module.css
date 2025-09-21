@@ -1,0 +1,11 @@
+
+.cardBox {
+  min-width: 650px;
+}
+
+@media (max-width: 1300px) {
+  .cardBox {
+    min-width: 0;
+    width: 100%;
+  }
+}

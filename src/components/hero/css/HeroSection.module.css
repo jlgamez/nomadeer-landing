@@ -1,0 +1,12 @@
+.imageBox {
+  display: flex;
+  justify-content: center;
+    width: 320px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 750px) {
+  .imageBox {
+    display: none;
+  }
+}

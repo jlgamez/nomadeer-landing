@@ -11,6 +11,7 @@ A modern template for building high-quality, performant landing pages using [Rad
 - 🔄 **React Use**: Essential React Hooks for everyday use.
 - 📝 **TypeScript**: Type-safe development.
 - 🚀 **Ready for Vercel**: Instant deployment and global CDN.
+- 🖼️ **Heroicons**: Beautiful, free SVG icons for React.
 
 ## Tech Stack & Capabilities
 
@@ -19,6 +20,7 @@ A modern template for building high-quality, performant landing pages using [Rad
 - **State Management**: Zustand
 - **Animation**: Motion
 - **React Hooks**: React Use
+- **Icons**: Heroicons for React
 - **TypeScript**: Type safety and autocompletion
 - **PostCSS**: CSS transformations
 - **Development Tools**: Hot reloading, fast builds with Turbopack
@@ -57,14 +59,15 @@ A modern template for building high-quality, performant landing pages using [Rad
    Visit [http://localhost:3000](http://localhost:3000) to view your landing page.
 
 4. **Start building:**
-   - Edit `app/page.tsx` to customize your landing page.
-   - Add components to src/components.
+    - Edit `app/page.tsx` to customize your landing page.
+    - Add components to src/components.
 
 ## Customization
 
 - **Radix UI**: Easily theme and extend UI primitives.
 - **Motion**: Add smooth, interactive animations.
 - **Zustand**: Manage global or local state with minimal boilerplate.
+- **Heroicons**: Add scalable SVG icons to your React components.
 
 ## Resources
 
@@ -74,6 +77,7 @@ A modern template for building high-quality, performant landing pages using [Rad
 - [Motion Documentation](https://motion.dev/docs)
 - [React Use Documentation](https://github.com/streamich/react-use)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [Heroicons Documentation](https://heroicons.com/)
 
 ---
 
