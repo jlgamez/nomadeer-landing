@@ -17,12 +17,13 @@
     align-self: start;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1300px) {
     .headingAndCtaFlex {
         align-self: center;
     }
 
     .heading {
+        align-self: center;
         text-align: center;
     }
     .subHeading {

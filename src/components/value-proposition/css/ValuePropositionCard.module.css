@@ -1,6 +1,6 @@
 
 .cardBox {
-  min-width: 650px;
+  width: 650px;
 }
 
 @media (max-width: 1300px) {

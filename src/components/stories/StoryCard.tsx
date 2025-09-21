@@ -34,7 +34,7 @@ export const StoryCard = (props: Props) => {
             />
             {badgeText && (
               <Box style={{ position: "absolute", top: 12, left: 12, zIndex: 1 }}>
-                <Badge size="3" variant={"solid"} color={"gold"}>
+                <Badge size="3" variant={"solid"}>
                   {badgeText}
                 </Badge>
               </Box>

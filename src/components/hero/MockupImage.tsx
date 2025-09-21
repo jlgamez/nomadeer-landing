@@ -1,5 +1,5 @@
 import { Box } from "@radix-ui/themes";
-import styles from "@/components/hero/css/HeroSection.module.css";
+import styles from "@/components/hero/css/ImageBox.module.css";
 
 export const MockupImage = () => {
   return (

@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94448521-59d0-43b7-8a67-2b551154d512" name="Changes" comment="Ignore IntelliJ IDEA directory in .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/components/hero/HeadingAndCta.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hero/MockupImage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stories/StoryCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionSection.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+    <list default="true" id="94448521-59d0-43b7-8a67-2b551154d512" name="Changes" comment="Add new Hero, Stories, and Value Proposition sections with refined styles and data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/data/storiesData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data/storiesData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/MockupImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/MockupImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/css/HeadingAndCta.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/css/HeadingAndCta.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/css/HeroSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/css/ImageBox.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stories/StoriesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoriesSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stories/StoryCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoryCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionSection.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <workItem from="1758211336614" duration="841000" />
       <workItem from="1758212194694" duration="51000" />
       <workItem from="1758212260798" duration="24472000" />
-      <workItem from="1758454252951" duration="14218000" />
+      <workItem from="1758454252951" duration="17177000" />
     </task>
     <task id="LOCAL-00001" summary="Add IntelliJ IDEA configuration files for ESLint, Prettier, and Copilot settings">
       <option name="closed" value="true" />
@@ -183,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758212404455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new Hero, Stories, and Value Proposition sections with refined styles and data">
+      <option name="closed" value="true" />
+      <created>1758488689714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758488689714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +214,7 @@
     <MESSAGE value="Add business context document outlining product vision and benefits" />
     <MESSAGE value="deleted idea files" />
     <MESSAGE value="Ignore IntelliJ IDEA directory in .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore IntelliJ IDEA directory in .gitignore" />
+    <MESSAGE value="Add new Hero, Stories, and Value Proposition sections with refined styles and data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new Hero, Stories, and Value Proposition sections with refined styles and data" />
   </component>
 </project>

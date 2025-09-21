@@ -16,7 +16,7 @@ const storiesData: StoryData[] = [
   {
     title: "Hangaku Gozen: Lady of the Fort",
     description:
-      "In 13th-century Japan, she stood defiant: a female samurai at the head of thousands, challenging the might of the Kamakura shogunate. Fortified in Tossakayama, wounded but unbowed, Hangaku Gozen’s courage lit fires in hearts long oppressed. A tale of honor, resolve, and the price of defiance",
+      "In 13th-century Japan, Hangaku Gozen led thousands against the Kamakura shogunate. Wounded yet unbowed in Tossakayama, her defiance became a symbol of honor and resolve",
     imageUrl: "/hangaku.webp",
     badgeText: "Limited spots",
   },
@@ -25,7 +25,7 @@ const storiesData: StoryData[] = [
     description:
       "In the deadly courts of Renaissance Italy, Caterina Sforza—widow, countess, and warrior—outwitted assassins, conspirators, and even the Borgias. Her story is one of survival, cunning, and a woman who mastered the deadly game of power",
     imageUrl: "/caterina.webp",
-    badgeText: "Most popular",
+    badgeText: "Most awaited",
   },
 ];
 

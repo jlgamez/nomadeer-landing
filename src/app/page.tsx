@@ -6,5 +6,11 @@ import { StoriesSection } from "@/components/stories/StoriesSection";
 import { Box, Flex } from "@radix-ui/themes";
 
 export default function MyApp() {
-  return <StoriesSection />;
+  return (
+    <Flex direction={"column"}>
+      <HeroSection />
+      <ValuePropositionSection />
+      <StoriesSection />
+    </Flex>
+  );
 }
