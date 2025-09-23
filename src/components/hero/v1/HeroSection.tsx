@@ -1,7 +1,7 @@
 import { Container, Flex } from "@radix-ui/themes";
-import { HeadingAndCta } from "@/components/hero/HeadingAndCta";
-import { MockupImage } from "@/components/hero/MockupImage";
-import styles from "./css/HeroSection.module.css";
+import { HeadingAndCta } from "@/components/hero/v1/HeadingAndCta";
+import { MockupImage } from "@/components/hero/v1/MockupImage";
+import styles from "src/components/hero/v1/css/HeroSection.module.css";
 
 export const HeroSection = () => {
   return (
