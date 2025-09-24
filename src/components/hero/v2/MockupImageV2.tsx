@@ -3,12 +3,12 @@ import styles from "./css/MockupImageV2.module.css";
 
 export const MockupImageV2 = () => {
   return (
-    <Box pt={"1" + "0%"}>
+    <Box mt={"10%"}>
       <img
-        src="/raw_iphone.png"
+        src="/oslo_mockup.png"
         alt="Nomadeer app on iPhone"
         className={styles.fadeOutBottom}
-        style={{ width: "420px", maxWidth: "100%" }}
+        style={{ width: "620px", maxWidth: "100%" }}
       />
     </Box>
   );
