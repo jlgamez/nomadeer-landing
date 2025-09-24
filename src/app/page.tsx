@@ -3,6 +3,7 @@ import { HowItWorks } from "@/components/how-it-works/HowItWorks";
 import { Flex } from "@radix-ui/themes";
 import { ValuePropositionSection } from "@/components/value-proposition/ValuePropositionSection";
 import { StoriesSection } from "@/components/stories/StoriesSection";
+import { DeepBenefitSection } from "@/components/DeepBenefits/DeepBenefitSection";
 
 export default function MyApp() {
   return (
@@ -11,6 +12,25 @@ export default function MyApp() {
       <ValuePropositionSection />
       <StoriesSection />
       <HowItWorks />
+      <DeepBenefitSection
+        benefits={[
+          {
+            title: "Live Narration",
+            description: "Experience the city with a personal guide, on your terms.",
+            imageUrl: "/caterina.webp",
+          },
+          {
+            title: "Immersive Experience",
+            description: "Experience the city with a personal guide, on your terms.",
+            imageUrl: "/caterina.webp",
+          },
+          {
+            title: "Live Narration",
+            description: "Experience the city with a personal guide, on your terms.",
+            imageUrl: "/caterina.webp",
+          },
+        ]}
+      />
     </Flex>
   );
 }
