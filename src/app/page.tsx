@@ -4,6 +4,9 @@ import { Flex } from "@radix-ui/themes";
 import { ValuePropositionSection } from "@/components/value-proposition/ValuePropositionSection";
 import { StoriesSection } from "@/components/stories/StoriesSection";
 import { DeepBenefitSection } from "@/components/DeepBenefits/DeepBenefitSection";
+//import { FrequentlyAskedQuestions } from "@/components/faq/FrequentlyAskedQuestions";
+import { WaitlistSection } from "@/components/waitlist/WaitlistSection";
+import { FrequentlyAskedQuestions } from "@/components/faq/FrequentlyAskedQuestions";
 
 export default function MyApp() {
   return (
@@ -31,6 +34,8 @@ export default function MyApp() {
           },
         ]}
       />
+      <WaitlistSection />
+      <FrequentlyAskedQuestions />
     </Flex>
   );
 }
