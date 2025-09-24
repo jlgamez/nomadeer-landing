@@ -37,7 +37,7 @@ const faqData = [
 
 export const FrequentlyAskedQuestions = () => {
   return (
-    <Container size="3" py="9">
+    <Container size="3" p="7">
       <Flex direction="column" align="center" gap="6">
         <Heading size="8" align="center" mb="4">
           Frequently Asked Questions
