@@ -1,6 +1,6 @@
 
 .fadeOutBottom {
   /* Safari and Chromium */
- -webkit-mask-image: -webkit-linear-gradient(top, black 20%, transparent 75%);
-    mask-image: linear-gradient(to bottom, black 20%, transparent 75%);
+ -webkit-mask-image: -webkit-linear-gradient(top, black 20%, transparent 85%);
+    mask-image: linear-gradient(to bottom, black 20%, transparent 85%);
 }

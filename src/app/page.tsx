@@ -6,7 +6,7 @@ import { StoriesSection } from "@/components/stories/StoriesSection";
 
 export default function MyApp() {
   return (
-    <Flex direction={"column"} gap={"6"}>
+    <Flex direction={"column"} gap={"1"}>
       <HeroSectionV2 />
       <ValuePropositionSection />
       <StoriesSection />

@@ -2,7 +2,7 @@ import { Button, Flex, Heading, Text } from "@radix-ui/themes";
 
 export const HeadingAndCtaV2 = () => {
   return (
-    <Flex direction={"column"} gap={"8"} align={"center"}>
+    <Flex direction={"column"} gap={"8"} align={"center"} p={"10px"}>
       <Heading size={"9"} align={"center"}>
         Experience Immersive History in Oslo
       </Heading>

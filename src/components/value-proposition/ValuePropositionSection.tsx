@@ -5,7 +5,7 @@ import valuePropositionData from "@/components/value-proposition/data";
 
 export const ValuePropositionSection = () => {
   return (
-    <Container width={"100%"} maxHeight={"30%"} pb={"3%"}>
+    <Container width={"100%"} maxHeight={"30%"} p={"10px"}>
       <Flex direction={"column"} align={"center"} gap={"9"}>
         <Heading size={"9"} align={"center"}>
           There's a Better Way to Experience History
