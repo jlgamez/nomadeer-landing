@@ -8,7 +8,7 @@ export const MockupImageV2 = () => {
         src="/oslo_mockup.png"
         alt="Nomadeer app on iPhone"
         className={styles.fadeOutBottom}
-        style={{ width: "480px", maxWidth: "100%" }}
+        style={{ width: "430px", maxWidth: "100%" }}
       />
     </Box>
   );

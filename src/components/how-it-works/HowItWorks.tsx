@@ -17,7 +17,7 @@ export const HowItWorks = () => {
         <Box style={{ width: "100%" }} p={"3%"}>
           <Flex wrap="wrap" direction={"row"} gap="6">
             {howItWorksSteps.map((step, idx) => (
-              <Card key={idx} style={{ flex: "1 1 0", minWidth: "250px" }}>
+              <Card key={idx} style={{ flex: "1 1 0", minWidth: "200px" }}>
                 <Flex align="center" direction={"column"} gap="3" p={"3"}>
                   {step.icon}
                   <Heading size="5">{step.title}</Heading>
