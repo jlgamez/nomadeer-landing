@@ -8,6 +8,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Nomadeer</title>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body>
         <Theme appearance={"dark"} accentColor={"amber"} radius={"full"}>
           {children}

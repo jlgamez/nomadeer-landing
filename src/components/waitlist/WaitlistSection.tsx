@@ -4,7 +4,7 @@ import { Button, Card, Container, Flex, Heading, Text, TextField } from "@radix-
 
 export const WaitlistSection = () => {
   return (
-    <Container p="8" align="center" width="100%">
+    <Container id="waitlist" p="8" align="center" width="100%">
       <Card
         size="4"
         style={{

@@ -7,10 +7,13 @@ import { DeepBenefitSection } from "@/components/DeepBenefits/DeepBenefitSection
 //import { FrequentlyAskedQuestions } from "@/components/faq/FrequentlyAskedQuestions";
 import { WaitlistSection } from "@/components/waitlist/WaitlistSection";
 import { FrequentlyAskedQuestions } from "@/components/faq/FrequentlyAskedQuestions";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 export default function MyApp() {
   return (
     <Flex direction={"column"} gap={"1"}>
+      <Header />
       <HeroSectionV2 />
       <ValuePropositionSection />
       <StoriesSection />
@@ -36,6 +39,7 @@ export default function MyApp() {
       />
       <WaitlistSection />
       <FrequentlyAskedQuestions />
+      <Footer />
     </Flex>
   );
 }

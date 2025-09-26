@@ -7,7 +7,7 @@ export const HeadingAndCtaV2 = () => {
         Experience Immersive History in Oslo
       </Heading>
       <Text size="5" color="gray" align="center" style={{ maxWidth: 600 }}>
-        Private tours with a live Narrator and enhanced immersion technology.
+        Private tours with a Live Narrator and enhanced Immersion Technology.
       </Text>
       <Button size={"4"}>Book a story</Button>
     </Flex>

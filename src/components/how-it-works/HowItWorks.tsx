@@ -3,7 +3,7 @@ import howItWorksSteps from "@/components/how-it-works/data";
 
 export const HowItWorks = () => {
   return (
-    <Container pb="7" width="100%" align="center">
+    <Container id="how-it-works" pb="7" width="100%" align="center">
       <Flex direction="column" align="center" gap="7" width={"100%"}>
         <Flex direction="column" align="center" gap="3" maxWidth={"100%"}>
           <Heading size="9" align="center">
