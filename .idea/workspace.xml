@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94448521-59d0-43b7-8a67-2b551154d512" name="Changes" comment="Add new Hero, Stories, and Value Proposition sections with refined styles and data">
+    <list default="true" id="94448521-59d0-43b7-8a67-2b551154d512" name="Changes" comment="Add Privacy Policy page with supporting layout, header, footer components, and section anchor IDs for navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data/storiesData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data/storiesData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/MockupImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/MockupImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/css/HeadingAndCta.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/css/HeadingAndCta.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero/css/HeroSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/css/ImageBox.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/faq/FrequentlyAskedQuestions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/faq/FrequentlyAskedQuestions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/v2/HeadingAndCtaV2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/v2/HeadingAndCtaV2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/v2/HeroSectionV2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/v2/HeroSectionV2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero/v2/MockupImageV2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero/v2/MockupImageV2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/how-it-works/HowItWorks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/how-it-works/HowItWorks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/how-it-works/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/how-it-works/data.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/stories/StoriesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoriesSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/stories/StoryCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoryCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/value-proposition/css/ValuePropositionSection.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -41,10 +44,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "animations",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/Users/jl/code/nomadeer-landing/src/components/hero/css",
+    "last_opened_file_path": "/Users/jl/code/nomadeer-landing/src/components/hero/v2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,21 +59,23 @@
     "npm.lint:fix.executor": "Run",
     "npm.prettier.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/Users/jl/code/nomadeer-landing/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/jl/code/nomadeer-landing/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/hero/v2" />
+      <recent name="$PROJECT_DIR$/src/components/hero" />
       <recent name="$PROJECT_DIR$/src/components/hero/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/hero/v2" />
+      <recent name="$PROJECT_DIR$/src/components/hero/v1" />
       <recent name="$PROJECT_DIR$/src/components/value-proposition/css" />
       <recent name="$PROJECT_DIR$/src/components/hero" />
       <recent name="$PROJECT_DIR$/src/components/value-proposition" />
-      <recent name="$PROJECT_DIR$/src/components/value-propositiion" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.prettier">
@@ -132,7 +137,11 @@
       <workItem from="1758211336614" duration="841000" />
       <workItem from="1758212194694" duration="51000" />
       <workItem from="1758212260798" duration="24472000" />
-      <workItem from="1758454252951" duration="17177000" />
+      <workItem from="1758454252951" duration="17332000" />
+      <workItem from="1758645707276" duration="39082000" />
+      <workItem from="1758921666387" duration="2325000" />
+      <workItem from="1758924015259" duration="57000" />
+      <workItem from="1758924082715" duration="9141000" />
     </task>
     <task id="LOCAL-00001" summary="Add IntelliJ IDEA configuration files for ESLint, Prettier, and Copilot settings">
       <option name="closed" value="true" />
@@ -190,7 +199,103 @@
       <option name="project" value="LOCAL" />
       <updated>1758488689714</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refine Hero, Stories, and Value Proposition sections with improved styles, responsive adjustments, and updated content">
+      <option name="closed" value="true" />
+      <created>1758492196955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758492196955</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refine Hero, Stories, and Value Proposition sections with improved styles, responsive adjustments, and updated content">
+      <option name="closed" value="true" />
+      <created>1758492205557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758492205557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor Hero section components into `v1` folder structure with updated assets, styles, and imports">
+      <option name="closed" value="true" />
+      <created>1758647787441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758647787441</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add new Hero v2 and How It Works sections with updated components, data, styles, and responsive adjustments">
+      <option name="closed" value="true" />
+      <created>1758665860846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758665860846</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update Hero v2 heading text to new Oslo-focused messaging">
+      <option name="closed" value="true" />
+      <created>1758667562558</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758667562558</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Replace Hero v2 assets and refine styles and messaging.">
+      <option name="closed" value="true" />
+      <created>1758673748709</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758673748709</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Replace Hero v2 assets and refine styles and messaging.">
+      <option name="closed" value="true" />
+      <created>1758674911196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758674911196</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refine styles in Value Proposition, How It Works, and Hero v2 sections with improved spacing and layout adjustments">
+      <option name="closed" value="true" />
+      <created>1758706662937</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758706662937</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add Deep Benefit Section with reusable components and integrate into main page layout">
+      <option name="closed" value="true" />
+      <created>1758713925532</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758713925532</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Deep Benefit Section with reusable components and integrate into main page layout">
+      <option name="closed" value="true" />
+      <created>1758716488993</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758716488993</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adjust padding in FAQ container for consistent spacing">
+      <option name="closed" value="true" />
+      <created>1758716602166</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758716602166</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add Privacy Policy page with supporting layout, header, footer components, and section anchor IDs for navigation">
+      <option name="closed" value="true" />
+      <created>1758924269541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758924269541</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +320,15 @@
     <MESSAGE value="deleted idea files" />
     <MESSAGE value="Ignore IntelliJ IDEA directory in .gitignore" />
     <MESSAGE value="Add new Hero, Stories, and Value Proposition sections with refined styles and data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new Hero, Stories, and Value Proposition sections with refined styles and data" />
+    <MESSAGE value="Refine Hero, Stories, and Value Proposition sections with improved styles, responsive adjustments, and updated content" />
+    <MESSAGE value="Refactor Hero section components into `v1` folder structure with updated assets, styles, and imports" />
+    <MESSAGE value="Add new Hero v2 and How It Works sections with updated components, data, styles, and responsive adjustments" />
+    <MESSAGE value="Update Hero v2 heading text to new Oslo-focused messaging" />
+    <MESSAGE value="Replace Hero v2 assets and refine styles and messaging." />
+    <MESSAGE value="Refine styles in Value Proposition, How It Works, and Hero v2 sections with improved spacing and layout adjustments" />
+    <MESSAGE value="Add Deep Benefit Section with reusable components and integrate into main page layout" />
+    <MESSAGE value="Adjust padding in FAQ container for consistent spacing" />
+    <MESSAGE value="Add Privacy Policy page with supporting layout, header, footer components, and section anchor IDs for navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Privacy Policy page with supporting layout, header, footer components, and section anchor IDs for navigation" />
   </component>
 </project>

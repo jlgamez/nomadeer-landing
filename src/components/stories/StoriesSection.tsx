@@ -20,6 +20,7 @@ export const StoriesSection = () => {
               description={story.description}
               imageUrl={story.imageUrl}
               badgeText={story.badgeText}
+              animationIndex={index}
             />
           ))}
         </Flex>

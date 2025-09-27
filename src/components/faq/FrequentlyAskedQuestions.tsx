@@ -75,7 +75,7 @@ export const FrequentlyAskedQuestions = () => {
                       width: "20px",
                       height: "20px",
                       transition: "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
-                      color: "var(--amber-9)",
+                      color: "var(--accent-9)",
                       transformOrigin: "center",
                     }}
                     className="accordion-chevron"

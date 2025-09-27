@@ -3,7 +3,7 @@ import howItWorksSteps from "@/components/how-it-works/data";
 
 export const HowItWorks = () => {
   return (
-    <Container id="how-it-works" pb="7" width="100%" align="center">
+    <Container id="how-it-works" pt="8" pb="7" width="100%" align="center">
       <Flex direction="column" align="center" gap="7" width={"100%"}>
         <Flex direction="column" align="center" gap="3" maxWidth={"100%"}>
           <Heading size="9" align="center">
@@ -20,7 +20,9 @@ export const HowItWorks = () => {
               <Card key={idx} style={{ flex: "1 1 0", minWidth: "200px" }}>
                 <Flex align="center" direction={"column"} gap="3" p={"3"}>
                   {step.icon}
-                  <Heading size="5">{step.title}</Heading>
+                  <Heading size="5" style={{ color: "var(--accent-9)" }}>
+                    {step.title}
+                  </Heading>
                   <Text size="3" color="gray" align={"center"} style={{ maxWidth: "70%" }}>
                     {step.description}
                   </Text>
